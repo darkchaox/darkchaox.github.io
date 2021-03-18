@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>陈建超的博客</title>
+  
+  <subtitle>Happy Coding</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://darkchaox.github.io/"/>
+  <updated>2021-03-17T14:49:03.388Z</updated>
+  <id>https://darkchaox.github.io/</id>
+  
+  <author>
+    <name>DARKCHAOX</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ListView中隐藏输入键盘</title>
+    <link href="https://darkchaox.github.io/2018/08/16/listview-zhong-yin-cang-shu-ru-jian-pan/"/>
+    <id>https://darkchaox.github.io/2018/08/16/listview-zhong-yin-cang-shu-ru-jian-pan/</id>
+    <published>2018-08-15T16:00:00.000Z</published>
+    <updated>2021-03-17T14:49:03.388Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;App的第一行是个EditText控件，点击EditText输入后ListView实时显示结果，发现滑动ListView时键盘不会自动隐藏，网上查资料结合ListView的触摸监听事件完美解决这个问题！代码如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://darkchaox.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Android" scheme="https://darkchaox.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于InputStream的read方法返回值的理解</title>
+    <link href="https://darkchaox.github.io/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/"/>
+    <id>https://darkchaox.github.io/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/</id>
+    <published>2018-08-15T16:00:00.000Z</published>
+    <updated>2021-03-17T14:47:32.706Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;官方文档的解释是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Returns:the total number of bytes read into the buffer, or -1 if there is no more data because
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://darkchaox.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="java" scheme="https://darkchaox.github.io/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Jekyll 3.0中手动添加pagination</title>
+    <link href="https://darkchaox.github.io/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/"/>
+    <id>https://darkchaox.github.io/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/</id>
+    <published>2018-08-15T16:00:00.000Z</published>
+    <updated>2021-03-16T14:53:46.311Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;使用Hyde主题，在本地查看Blog时，文章无法显示；&lt;br&gt;启动转化和本地服务&lt;code&gt;bundle exec jekyll serve&lt;/code&gt;时会出错：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Deprecation: You appear to have
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://darkchaox.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="blog" scheme="https://darkchaox.github.io/tags/blog/"/>
+    
+  </entry>
+  
+</feed>
