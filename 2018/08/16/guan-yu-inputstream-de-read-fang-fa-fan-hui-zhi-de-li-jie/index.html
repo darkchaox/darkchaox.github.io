@@ -218,7 +218,21 @@
               </span>
               <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
-            </span><br>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -289,13 +303,10 @@
 
         
     <div class="post-nav">
+      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/" rel="prev" title="在Jekyll 3.0中手动添加pagination">
-      <i class="fa fa-chevron-left"></i> 在Jekyll 3.0中手动添加pagination
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2018/08/16/listview-zhong-yin-cang-shu-ru-jian-pan/" rel="next" title="ListView中隐藏输入键盘">
-      ListView中隐藏输入键盘 <i class="fa fa-chevron-right"></i>
+    <a href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/" rel="next" title="在Jekyll 3.0中手动添加pagination">
+      在Jekyll 3.0中手动添加pagination <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -309,6 +320,7 @@
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -521,6 +533,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'J3mx1z83Kw5dzR1aivVO2T9D-gzGzoHsz',
+      appKey     : '5jXQdYWlWD5q0Dd9yvmkn0jE',
+      placeholder: "欢迎畅所欲言",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>

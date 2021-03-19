@@ -44,6 +44,34 @@
   </entry>
   
   <entry>
+    <title>在Jekyll 3.0中手动添加pagination</title>
+    <link href="https://darkchaox.github.io/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/"/>
+    <id>https://darkchaox.github.io/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/</id>
+    <published>2018-08-15T16:00:00.000Z</published>
+    <updated>2021-03-16T14:53:46.311Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;使用Hyde主题，在本地查看Blog时，文章无法显示；&lt;br&gt;启动转化和本地服务&lt;code&gt;bundle exec jekyll serve&lt;/code&gt;时会出错：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Deprecation: You appear to have
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://darkchaox.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="blog" scheme="https://darkchaox.github.io/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于InputStream的read方法返回值的理解</title>
     <link href="https://darkchaox.github.io/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/"/>
     <id>https://darkchaox.github.io/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/</id>
@@ -69,34 +97,6 @@
     
     
       <category term="java" scheme="https://darkchaox.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在Jekyll 3.0中手动添加pagination</title>
-    <link href="https://darkchaox.github.io/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/"/>
-    <id>https://darkchaox.github.io/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/</id>
-    <published>2018-08-15T16:00:00.000Z</published>
-    <updated>2021-03-16T14:53:46.311Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;使用Hyde主题，在本地查看Blog时，文章无法显示；&lt;br&gt;启动转化和本地服务&lt;code&gt;bundle exec jekyll serve&lt;/code&gt;时会出错：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Deprecation: You appear to have
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="https://darkchaox.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="blog" scheme="https://darkchaox.github.io/tags/blog/"/>
     
   </entry>
   

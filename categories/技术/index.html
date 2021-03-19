@@ -208,8 +208,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/" itemprop="url">
-            <span itemprop="name">关于InputStream的read方法返回值的理解</span>
+          <a class="post-title-link" href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/" itemprop="url">
+            <span itemprop="name">在Jekyll 3.0中手动添加pagination</span>
           </a>
       </div>
 
@@ -228,8 +228,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/" itemprop="url">
-            <span itemprop="name">在Jekyll 3.0中手动添加pagination</span>
+          <a class="post-title-link" href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/" itemprop="url">
+            <span itemprop="name">关于InputStream的read方法返回值的理解</span>
           </a>
       </div>
 
@@ -460,6 +460,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'J3mx1z83Kw5dzR1aivVO2T9D-gzGzoHsz',
+      appKey     : '5jXQdYWlWD5q0Dd9yvmkn0jE',
+      placeholder: "欢迎畅所欲言",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
