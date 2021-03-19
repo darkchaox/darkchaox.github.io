@@ -306,10 +306,7 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/" rel="prev" title="关于InputStream的read方法返回值的理解">
-      <i class="fa fa-chevron-left"></i> 关于InputStream的read方法返回值的理解
-    </a></div>
+      <div class="post-nav-item"></div>
       <div class="post-nav-item">
     <a href="/2018/08/16/listview-zhong-yin-cang-shu-ru-jian-pan/" rel="next" title="ListView中隐藏输入键盘">
       ListView中隐藏输入键盘 <i class="fa fa-chevron-right"></i>
@@ -546,7 +543,7 @@
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
     var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
+    var guest = 'nick,mail';
     guest = guest.split(',').filter(item => {
       return GUEST.includes(item);
     });

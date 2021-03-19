@@ -296,7 +296,10 @@
     <a href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/" rel="prev" title="在Jekyll 3.0中手动添加pagination">
       <i class="fa fa-chevron-left"></i> 在Jekyll 3.0中手动添加pagination
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/" rel="next" title="关于InputStream的read方法返回值的理解">
+      关于InputStream的read方法返回值的理解 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -528,7 +531,7 @@
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
     var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
+    var guest = 'nick,mail';
     guest = guest.split(',').filter(item => {
       return GUEST.includes(item);
     });
