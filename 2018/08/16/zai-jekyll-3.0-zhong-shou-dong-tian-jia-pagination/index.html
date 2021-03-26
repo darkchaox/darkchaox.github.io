@@ -175,7 +175,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="DARKCHAOX">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="复述是最有效的学习方式">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -307,13 +307,10 @@
 
         
     <div class="post-nav">
+      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/" rel="prev" title="关于InputStream的read方法返回值的理解">
-      <i class="fa fa-chevron-left"></i> 关于InputStream的read方法返回值的理解
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2018/08/16/listview-zhong-yin-cang-shu-ru-jian-pan/" rel="next" title="ListView中隐藏输入键盘">
-      ListView中隐藏输入键盘 <i class="fa fa-chevron-right"></i>
+    <a href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/" rel="next" title="关于InputStream的read方法返回值的理解">
+      关于InputStream的read方法返回值的理解 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -381,7 +378,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">DARKCHAOX</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">复述是最有效的学习方式</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -523,6 +520,31 @@
 
 
   
+  <script>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
 
 
 

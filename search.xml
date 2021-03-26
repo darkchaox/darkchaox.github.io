@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>在Jekyll 3.0中手动添加pagination</title>
-      <link href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/"/>
-      <url>/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/</url>
-      
-        <content type="html"><![CDATA[<p>使用Hyde主题，在本地查看Blog时，文章无法显示；<br>启动转化和本地服务<code>bundle exec jekyll serve</code>时会出错：</p><blockquote><p>Deprecation: You appear to have pagination turned on, but you haven’t included the <code>jekyll-paginate</code> gem. Ensure you have <code>gems: [jekyll-paginate]</code> in your configuration file.</p></blockquote><p>因为Jekyll 3中并没有集成pagination，需要手动安装。<br>1.打开终端，输入<code>gem install jekyll-paginate</code><br>2.打开项目根目录下的<code>_config.yml</code>，添加以下内容：</p><blockquote><p>gems :</p><ul><li>jekyll-paginate</li></ul></blockquote><p>保存后重新执行<code>bundle exec jekyll serve</code>即可。</p><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul><li><a href="https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/" target="_blank" rel="noopener">Fix pagination after upgrading from Jekyll 2 to Jekyll 3</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于InputStream的read方法返回值的理解</title>
       <link href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/"/>
       <url>/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/</url>
@@ -71,6 +46,31 @@
         <tags>
             
             <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在Jekyll 3.0中手动添加pagination</title>
+      <link href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/"/>
+      <url>/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/</url>
+      
+        <content type="html"><![CDATA[<p>使用Hyde主题，在本地查看Blog时，文章无法显示；<br>启动转化和本地服务<code>bundle exec jekyll serve</code>时会出错：</p><blockquote><p>Deprecation: You appear to have pagination turned on, but you haven’t included the <code>jekyll-paginate</code> gem. Ensure you have <code>gems: [jekyll-paginate]</code> in your configuration file.</p></blockquote><p>因为Jekyll 3中并没有集成pagination，需要手动安装。<br>1.打开终端，输入<code>gem install jekyll-paginate</code><br>2.打开项目根目录下的<code>_config.yml</code>，添加以下内容：</p><blockquote><p>gems :</p><ul><li>jekyll-paginate</li></ul></blockquote><p>保存后重新执行<code>bundle exec jekyll serve</code>即可。</p><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul><li><a href="https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/" target="_blank" rel="noopener">Fix pagination after upgrading from Jekyll 2 to Jekyll 3</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
             
         </tags>
       
