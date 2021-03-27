@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>关于InputStream的read方法返回值的理解</title>
-      <link href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/"/>
-      <url>/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/</url>
-      
-        <content type="html"><![CDATA[<ul><li><p>官方文档的解释是：</p><blockquote><p>Returns:the total number of bytes read into the buffer, or -1 if there is no more data because the end of the stream has been reached.</p></blockquote><blockquote><p>返回值：返回的是缓冲流的总字节数，到达文件末尾时返回-1。</p></blockquote><p>当时很难理解，为什么既能返回总字节数，又可以返回-1，怎么能返回两个值…</p><p><strong>正确的理解是：</strong><br>当调用read方法，读取第一个字节时，如果为null（说明已到文件末尾），则返回为-1，<br>否则，继续读取下一个字节，直到为null，此时就返回读取的字节总数。</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>在Jekyll 3.0中手动添加pagination</title>
       <link href="/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/"/>
       <url>/2018/08/16/zai-jekyll-3.0-zhong-shou-dong-tian-jia-pagination/</url>
@@ -96,6 +71,31 @@
         <tags>
             
             <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于InputStream的read方法返回值的理解</title>
+      <link href="/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/"/>
+      <url>/2018/08/16/guan-yu-inputstream-de-read-fang-fa-fan-hui-zhi-de-li-jie/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>官方文档的解释是：</p><blockquote><p>Returns:the total number of bytes read into the buffer, or -1 if there is no more data because the end of the stream has been reached.</p></blockquote><blockquote><p>返回值：返回的是缓冲流的总字节数，到达文件末尾时返回-1。</p></blockquote><p>当时很难理解，为什么既能返回总字节数，又可以返回-1，怎么能返回两个值…</p><p><strong>正确的理解是：</strong><br>当调用read方法，读取第一个字节时，如果为null（说明已到文件末尾），则返回为-1，<br>否则，继续读取下一个字节，直到为null，此时就返回读取的字节总数。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
             
         </tags>
       
